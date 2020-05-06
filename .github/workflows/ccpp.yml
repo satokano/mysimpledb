@@ -14,9 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: |
-              cc --version
-              which gcc
-              which gcc-8
-              which gcc-9
-              make
+      run: make
+
