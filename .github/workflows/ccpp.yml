@@ -18,4 +18,5 @@ jobs:
               cc --version
               which gcc
               which gcc-8
+              which gcc-9
               make
