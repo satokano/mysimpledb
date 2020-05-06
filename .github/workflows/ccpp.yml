@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: make
       run: |
-              sudo update-alternatives --display gcc
+              gcc --version
               sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 80
               sudo update-alternatives --set gcc /usr/bin/gcc-9
               sudo update-alternatives --set cc /usr/bin/gcc
