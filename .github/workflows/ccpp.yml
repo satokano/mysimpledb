@@ -17,5 +17,7 @@ jobs:
       run: |
               sudo update-alternatives --display gcc
               sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 80
+              sudo update-alternatives --set gcc /usr/bin/gcc-9
+              sudo update-alternatives --set cc /usr/bin/gcc
               make
 
