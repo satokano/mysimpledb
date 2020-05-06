@@ -16,4 +16,6 @@ jobs:
     - name: make
       run: |
               cc --version
+              which gcc
+              which gcc-8
               make
